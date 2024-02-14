@@ -1,0 +1,40 @@
+ALGORITMA SEARCHING
+1.	Sequential --> diperiksa setiap elemen dari awal sampai ditemukan 
+2.	Binary --> pencarian dibagi dua (sudah dalam keadaan terurut). 
+•	Indeks tengah = (indek awal + indek akhir)/2
+3.	Interpolation --> perkiraan letak data yang dicari
+•	Mid = low + ((toFind – sortedArray[low]) x (high – low))/ (sortedArray[high] – sortedArray[low])
+
+Algoritma Sort
+1.	Bubble Sort --> perbandingan antar elemen larik  dengan elemen sesudahnya, dilakukan penukaran jika tidak terurut
+2.	Selection Sort --> pengurutan maks/min dgn memilih elemen maks/min dan ditukar
+3.	Insertion --> penyisipan elem larik, terjadi pergeseran elemen larik
+4.	Quick --> partisi array ke subarray kiri dan subarray kanan dgn subarray kiri lebih kecil dari subarray kanan. Dilakukan quick sort pada masing” subarray. (rekrusif/berulang)
+5.	Merge --> dibagi 2 sampe terpisah setiap elemennya dan digabungkan kembali dengan elemen yang sudah urut
+
+1.	Algoritma senarai berantai (linked list) (dinamis)
+2.	Tunggal tidak berkepala
+3.	Berantai ganda berkepala berputar
+
+1.	Algoritma antrian (queue)
+-->	Sekumpulan obyek, terjadi penambahan dan penghapusan dengan aturan FIFO
+-->	Penambahan di belakang --> rear
+-->	Penghapusan dari depan --> front
+2.	Algoritma Tumpukan (stack)
+-->	Sekumpulan obyek
+-->Penambahan (push)
+-->	Penghapusan (pop)
+-->	Aturan FILO (first in last out)
+-->	Depan (front), di belakang (rear)
+
+TREE – GRAPH
+1.	KRUSKAL
+2.	MINIMUM SPANNING TREE
+3.	PRIM
+4.	TRAVERSAL
+•	DEPTH FIRST SEARCH
+•	BREADTH FIRST SEARCH
+5.	SHORTEST PATH 
+6.	DJIKSTRA
+7.	TOPOLOGICAL SORTING
+
